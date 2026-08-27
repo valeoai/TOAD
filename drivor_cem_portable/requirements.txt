@@ -1,0 +1,10 @@
+# Third-party runtime deps for DrivoR + CEM (install into a CUDA-enabled env).
+# Versions are indicative — match your existing torch/CUDA build.
+torch
+numpy
+pillow
+einops
+timm
+safetensors
+omegaconf
+pytorch-lightning

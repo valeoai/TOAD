@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 606" width="1060" height="606" role="img" aria-label="TOAD results. NAVSIM-v1 PDMS: 93.1, 93.7, 94.0, 94.6, and 95.0 with TOAD, above the 94.8 human driver reference. NAVSIM-v2 EPDMS: 48.3, 52.2, 54.6, and 56.3 with TOAD, against 56.6 for PDM-C with privileged ground-truth inputs. Both TOAD rows are new state of the art.">
+  <defs>
+    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2f5d8f"/><stop offset="70%" stop-color="#26b083"/><stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="ref" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a4326"/><stop offset="100%" stop-color="#8a6d2a"/>
+    </linearGradient>
+    <style>
+      .t { font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+      .m { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+  <rect width="1060" height="606" rx="16" fill="#0b1223"/>
+  <rect x="1" y="1" width="1058" height="604" rx="16" fill="none" stroke="#334155" stroke-opacity="0.45"/>
+
+  <text class="t" x="34" y="44" font-size="22" font-weight="800" fill="#e6edf3">NAVSIM-v1</text>
+  <text class="t" x="180" y="44" font-size="15" fill="#7d8ea8">PDMS  ·  axis 92.5 – 95.5</text>
+  <text class="t" x="234" y="87" font-size="15" text-anchor="end" fill="#8ba0ba" font-weight="400">Train 85k</text>
+  <rect x="250" y="68" width="620" height="26" rx="6" fill="#16233c"/>
+  <rect x="250" y="68" height="26" rx="6" fill="#2f5d8f" width="124.0">
+    <animate attributeName="width" values="0;0;124.0;124.0;0" keyTimes="0;0.050;0.170;0.90;1" dur="10s" repeatCount="indefinite"/>
+  </rect>
+  <text class="m" x="386.0" y="87" font-size="17" font-weight="600" fill="#c3d3e6" opacity="1">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.050;0.170;0.90;1" dur="10s" repeatCount="indefinite"/>93.1</text>
+  <text class="t" x="234" y="127" font-size="15" text-anchor="end" fill="#8ba0ba" font-weight="400">Trainval 103k</text>
+  <rect x="250" y="108" width="620" height="26" rx="6" fill="#16233c"/>
+  <rect x="250" y="108" height="26" rx="6" fill="#2f5d8f" width="248.0">
+    <animate attributeName="width" values="0;0;248.0;248.0;0" keyTimes="0;0.105;0.225;0.90;1" dur="10s" repeatCount="indefinite"/>
+  </rect>
+  <text class="m" x="510.0" y="127" font-size="17" font-weight="600" fill="#c3d3e6" opacity="1">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.105;0.225;0.90;1" dur="10s" repeatCount="indefinite"/>93.7</text>
+  <text class="t" x="234" y="167" font-size="15" text-anchor="end" fill="#8ba0ba" font-weight="400">+ Simscale 65k</text>
+  <rect x="250" y="148" width="620" height="26" rx="6" fill="#16233c"/>
+  <rect x="250" y="148" height="26" rx="6" fill="#2f5d8f" width="310.0">
+    <animate attributeName="width" values="0;0;310.0;310.0;0" keyTimes="0;0.160;0.280;0.90;1" dur="10s" repeatCount="indefinite"/>
+  </rect>
+  <text class="m" x="572.0" y="167" font-size="17" font-weight="600" fill="#c3d3e6" opacity="1">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.160;0.280;0.90;1" dur="10s" repeatCount="indefinite"/>94.0</text>
+  <text class="t" x="234" y="207" font-size="15" text-anchor="end" fill="#8ba0ba" font-weight="400">+ Simscale 134k</text>
+  <rect x="250" y="188" width="620" height="26" rx="6" fill="#16233c"/>
+  <rect x="250" y="188" height="26" rx="6" fill="#2f5d8f" width="434.0">
+    <animate attributeName="width" values="0;0;434.0;434.0;0" keyTimes="0;0.215;0.335;0.90;1" dur="10s" repeatCount="indefinite"/>
+  </rect>
+  <text class="m" x="696.0" y="207" font-size="17" font-weight="600" fill="#c3d3e6" opacity="1">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.215;0.335;0.90;1" dur="10s" repeatCount="indefinite"/>94.6</text>
+  <text class="t" x="234" y="247" font-size="15" text-anchor="end" fill="#e6edf3" font-weight="700">+ TOAD</text>
+  <rect x="250" y="228" width="620" height="26" rx="6" fill="#16233c"/>
+  <rect x="250" y="228" height="26" rx="6" fill="url(#hot)" width="516.7">
+    <animate attributeName="width" values="0;0;516.7;516.7;0" keyTimes="0;0.270;0.390;0.90;1" dur="10s" repeatCount="indefinite"/>
+  </rect>
+  <text class="m" x="778.7" y="247" font-size="17" font-weight="800" fill="#34d399" opacity="1">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.270;0.390;0.90;1" dur="10s" repeatCount="indefinite"/>95.0</text>
+  <g opacity="1"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.270;0.390;0.90;1" dur="10s" repeatCount="indefinite"/>
+    <rect x="824.7" y="231" width="106" height="20" rx="10" fill="#2a1f07" stroke="#fbbf24" stroke-opacity="0.6"/>
+    <text class="t" x="836.7" y="245" font-size="12" font-weight="800" fill="#fbbf24">NEW SOTA</text></g>
+  <text class="t" x="234" y="287" font-size="15" text-anchor="end" fill="#c8a34a" font-weight="500">"Human" driver GT</text>
+  <rect x="250" y="268" width="620" height="26" rx="6" fill="#16233c"/>
+  <rect x="250" y="268" height="26" rx="6" fill="url(#ref)" width="475.3">
+    <animate attributeName="width" values="0;0;475.3;475.3;0" keyTimes="0;0.325;0.445;0.90;1" dur="10s" repeatCount="indefinite"/>
+  </rect>
+  <text class="m" x="737.3" y="287" font-size="17" font-weight="600" fill="#e0b95c" opacity="1">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.325;0.445;0.90;1" dur="10s" repeatCount="indefinite"/>94.8</text>
+  <g opacity="1"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.325;0.445;0.90;1" dur="10s" repeatCount="indefinite"/>
+    <rect x="783.3" y="271" width="112" height="20" rx="10" fill="#241c0c" stroke="#a8843a" stroke-opacity="0.6"/>
+    <text class="t" x="795.3" y="285" font-size="12" font-weight="800" fill="#a8843a">ORACLE REF</text></g>
+
+  <text class="t" x="34" y="348" font-size="22" font-weight="800" fill="#e6edf3">NAVSIM-v2</text>
+  <text class="t" x="180" y="348" font-size="15" fill="#7d8ea8">EPDMS  ·  navhard_two_stage  ·  axis 46 – 58</text>
+  <text class="t" x="234" y="391" font-size="15" text-anchor="end" fill="#8ba0ba" font-weight="400">Train 85k</text>
+  <rect x="250" y="372" width="620" height="26" rx="6" fill="#16233c"/>
+  <rect x="250" y="372" height="26" rx="6" fill="#2f5d8f" width="118.8">
+    <animate attributeName="width" values="0;0;118.8;118.8;0" keyTimes="0;0.380;0.500;0.90;1" dur="10s" repeatCount="indefinite"/>
+  </rect>
+  <text class="m" x="380.8" y="391" font-size="17" font-weight="600" fill="#c3d3e6" opacity="1">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.380;0.500;0.90;1" dur="10s" repeatCount="indefinite"/>48.3</text>
+  <text class="t" x="234" y="431" font-size="15" text-anchor="end" fill="#8ba0ba" font-weight="400">+ Simscale 65k</text>
+  <rect x="250" y="412" width="620" height="26" rx="6" fill="#16233c"/>
+  <rect x="250" y="412" height="26" rx="6" fill="#2f5d8f" width="320.3">
+    <animate attributeName="width" values="0;0;320.3;320.3;0" keyTimes="0;0.435;0.555;0.90;1" dur="10s" repeatCount="indefinite"/>
+  </rect>
+  <text class="m" x="582.3" y="431" font-size="17" font-weight="600" fill="#c3d3e6" opacity="1">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.435;0.555;0.90;1" dur="10s" repeatCount="indefinite"/>52.2</text>
+  <text class="t" x="234" y="471" font-size="15" text-anchor="end" fill="#8ba0ba" font-weight="400">+ Simscale 134k</text>
+  <rect x="250" y="452" width="620" height="26" rx="6" fill="#16233c"/>
+  <rect x="250" y="452" height="26" rx="6" fill="#2f5d8f" width="444.3">
+    <animate attributeName="width" values="0;0;444.3;444.3;0" keyTimes="0;0.490;0.610;0.90;1" dur="10s" repeatCount="indefinite"/>
+  </rect>
+  <text class="m" x="706.3" y="471" font-size="17" font-weight="600" fill="#c3d3e6" opacity="1">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.490;0.610;0.90;1" dur="10s" repeatCount="indefinite"/>54.6</text>
+  <text class="t" x="234" y="511" font-size="15" text-anchor="end" fill="#e6edf3" font-weight="700">+ TOAD</text>
+  <rect x="250" y="492" width="620" height="26" rx="6" fill="#16233c"/>
+  <rect x="250" y="492" height="26" rx="6" fill="url(#hot)" width="532.2">
+    <animate attributeName="width" values="0;0;532.2;532.2;0" keyTimes="0;0.545;0.665;0.90;1" dur="10s" repeatCount="indefinite"/>
+  </rect>
+  <text class="m" x="794.2" y="511" font-size="17" font-weight="800" fill="#34d399" opacity="1">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.545;0.665;0.90;1" dur="10s" repeatCount="indefinite"/>56.3</text>
+  <g opacity="1"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.545;0.665;0.90;1" dur="10s" repeatCount="indefinite"/>
+    <rect x="840.2" y="495" width="106" height="20" rx="10" fill="#2a1f07" stroke="#fbbf24" stroke-opacity="0.6"/>
+    <text class="t" x="852.2" y="509" font-size="12" font-weight="800" fill="#fbbf24">NEW SOTA</text></g>
+  <text class="t" x="234" y="551" font-size="15" text-anchor="end" fill="#c8a34a" font-weight="500">PDM-C  (GT inputs)</text>
+  <rect x="250" y="532" width="620" height="26" rx="6" fill="#16233c"/>
+  <rect x="250" y="532" height="26" rx="6" fill="url(#ref)" width="547.7">
+    <animate attributeName="width" values="0;0;547.7;547.7;0" keyTimes="0;0.600;0.720;0.90;1" dur="10s" repeatCount="indefinite"/>
+  </rect>
+  <text class="m" x="809.7" y="551" font-size="17" font-weight="600" fill="#e0b95c" opacity="1">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.600;0.720;0.90;1" dur="10s" repeatCount="indefinite"/>56.6</text>
+  <g opacity="1"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.600;0.720;0.90;1" dur="10s" repeatCount="indefinite"/>
+    <rect x="855.7" y="535" width="112" height="20" rx="10" fill="#241c0c" stroke="#a8843a" stroke-opacity="0.6"/>
+    <text class="t" x="867.7" y="549" font-size="12" font-weight="800" fill="#a8843a">ORACLE REF</text></g>
+
+  <text class="t" x="34" y="586" font-size="12" fill="#5f6f88">ORACLE REF = privileged inputs, not a sensor-based system and not directly comparable.</text>
+</svg>

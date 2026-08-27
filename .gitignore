@@ -1,0 +1,37 @@
+# python
+*.pyc
+**/__pycache__/
+.pytest_cache/*
+.pydevproject
+
+# IDE
+.vscode/*
+
+# Pip
+*.egg-info
+
+# files
+*.log
+*.pkl
+*.jpg
+*.pcd
+lightning_logs
+# exp
+exp
+
+# data
+dataset
+
+# lsf
+*.bsub
+
+# running scripts
+scripts_dev/*
+
+# weights and checkpoints (downloaded, not versioned)
+weights
+checkpoints
+*.ckpt
+*.pth
+*.safetensors
+

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="TOAD - Test-Time Trajectory Optimization for Autonomous Driving. New state of the art on both benchmarks: 95.0 PDMS on NAVSIM-v1, above the 94.8 human-driver reference, and 56.3 EPDMS on NAVSIM-v2 navhard_two_stage. Test-time only - no retraining, CEM runs on top of a frozen checkpoint.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#003B71"/><stop offset="55%" stop-color="#003B71"/><stop offset="100%" stop-color="#003B71"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7FC4FF"/><stop offset="42%" stop-color="#BFF6E6"/>
+      <stop offset="72%" stop-color="#48E0AC"/><stop offset="100%" stop-color="#7FC4FF"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.55 0; 0.55 0; -0.55 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#48E0AC" stop-opacity="0"/><stop offset="55%" stop-color="#48E0AC"/><stop offset="100%" stop-color="#BFF6E6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#48E0AC" stop-opacity="0.55"/><stop offset="100%" stop-color="#48E0AC" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .t { font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+      .m { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace; }
+      .fin { opacity: 1; animation: fin 8s ease-out infinite; }
+      .d1 { animation-delay: .30s } .d2 { animation-delay: .60s }
+      .d3 { animation-delay: .90s } .d4 { animation-delay: 1.20s } .d5 { animation-delay: 1.50s }
+      @keyframes fin {
+        0%   { opacity: 0; transform: translateY(10px); }
+        12%  { opacity: 1; transform: translateY(0); }
+        88%  { opacity: 1; transform: translateY(0); }
+        100% { opacity: 0; transform: translateY(0); }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="440" fill="#003B71"/>
+
+  <text class="t" x="72" y="160" font-size="132" font-weight="800" letter-spacing="6" fill="url(#word)">TOAD</text>
+
+  <g class="fin d1">
+    <text class="t" x="76" y="206" font-size="27" font-weight="600" fill="#EAF4FF">Test-Time Trajectory Optimization</text>
+    <text class="t" x="76" y="242" font-size="27" font-weight="600" fill="#9EC9F0">for Autonomous Driving</text>
+  </g>
+
+  <g class="fin d2">
+    <rect x="74" y="274" width="432" height="27" rx="13" fill="#00213F" stroke="#fbbf24" stroke-opacity="0.6"/>
+    <text class="t" x="92" y="293" font-size="14" font-weight="800" fill="#fbbf24" letter-spacing="0.6">NEW STATE OF THE ART — BOTH BENCHMARKS</text>
+  </g>
+
+  <path d="M256 322V410M452 322V410" stroke="#9EC9F0" stroke-opacity="0.3"/>
+
+  <g class="fin d3">
+    <text class="m" x="76" y="356" font-size="31" font-weight="800" fill="#48E0AC">95.0</text>
+    <text class="t" x="160" y="355" font-size="15" fill="#8FD9C2">PDMS</text>
+    <text class="t" x="76" y="380" font-size="14" font-weight="600" fill="#EAF4FF">NAVSIM-v1</text>
+    <text class="t" x="76" y="400" font-size="12.5" fill="#9EC9F0">above human GT 94.8</text>
+  </g>
+  <g class="fin d4">
+    <text class="m" x="278" y="356" font-size="31" font-weight="800" fill="#7FC4FF">56.3</text>
+    <text class="t" x="362" y="355" font-size="15" fill="#9EC9F0">EPDMS</text>
+    <text class="t" x="278" y="380" font-size="14" font-weight="600" fill="#EAF4FF">NAVSIM-v2</text>
+    <text class="t" x="278" y="400" font-size="12.5" fill="#9EC9F0">navhard_two_stage</text>
+  </g>
+  <g class="fin d5">
+    <text class="t" x="474" y="352" font-size="17" font-weight="800" fill="#EAF4FF">TEST-TIME ONLY</text>
+    <text class="t" x="474" y="380" font-size="12.5" fill="#9EC9F0">no retraining — CEM runs</text>
+    <text class="t" x="474" y="400" font-size="12.5" fill="#9EC9F0">on a frozen checkpoint</text>
+  </g>
+
+  <!-- CEM: sample a wide proposal set, score, re-fit, refine -->
+  <g transform="translate(890,206)">
+    <circle cx="0" cy="0" r="120" fill="url(#glow)" opacity="0.5">
+      <animate attributeName="opacity" values="0.15;0.5;0.15" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <g fill="none" stroke="#7FC4FF" stroke-width="2.4" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="scale" values="1 1; 1 1; 1 0.14; 1 0.14; 1 1"
+                        keyTimes="0; 0.10; 0.42; 0.80; 1" dur="8s" repeatCount="indefinite" additive="sum"/>
+      <animate attributeName="stroke-opacity" values="0.05;0.55;0.55;0.18;0.05" keyTimes="0;0.10;0.42;0.80;1" dur="8s" repeatCount="indefinite"/>
+      <path d="M-215 0 Q -20 -34 215 -132"/><path d="M-215 0 Q -20 -26 215 -99"/>
+      <path d="M-215 0 Q -20 -17 215 -66"/><path d="M-215 0 Q -20 -9  215 -33"/>
+      <path d="M-215 0 Q -20 0   215 0"/><path d="M-215 0 Q -20 9   215 33"/>
+      <path d="M-215 0 Q -20 17  215 66"/><path d="M-215 0 Q -20 26  215 99"/>
+      <path d="M-215 0 Q -20 34  215 132"/>
+    </g>
+    <path id="best" d="M-215 0 Q -20 12 215 46" fill="none" stroke="url(#fade)" stroke-width="6"
+          stroke-linecap="round" stroke-dasharray="470" stroke-dashoffset="0">
+      <animate attributeName="stroke-dashoffset" values="470;470;0;0;470" keyTimes="0;0.34;0.56;0.88;1" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <circle r="7" fill="#F0FFFA" opacity="0.9">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.40;0.50;0.88;1" dur="8s" repeatCount="indefinite"/>
+      <animateMotion dur="8s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.40;0.72;1" calcMode="linear">
+        <mpath xlink:href="#best" href="#best"/>
+      </animateMotion>
+    </circle>
+    <g transform="translate(-215,0)">
+      <circle r="16" fill="#7FC4FF" opacity="0.18"><animate attributeName="r" values="14;26;14" dur="2.6s" repeatCount="indefinite"/></circle>
+      <rect x="-13" y="-8" width="26" height="16" rx="4" fill="#EAF4FF"/>
+      <rect x="-13" y="-8" width="9" height="16" rx="4" fill="#9EC9F0"/>
+    </g>
+    <text class="t" x="-215" y="160" font-size="15" fill="#8FB4D4">sample</text>
+    <text class="t" x="-70" y="160" font-size="15" fill="#8FB4D4">score</text>
+    <text class="t" x="40" y="160" font-size="15" fill="#8FB4D4">re-fit</text>
+    <text class="t" x="150" y="160" font-size="15" fill="#48E0AC" font-weight="600">refine</text>
+    <path d="M-165 155 H-95 M-25 155 H35 M95 155 H140" stroke="#9EC9F0" stroke-opacity="0.35" stroke-width="1.5"/>
+  </g>
+</svg>

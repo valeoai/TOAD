@@ -1,0 +1,3 @@
+[submodule "external/Franca"]
+	path = external/Franca
+	url = https://github.com/valeoai/Franca.git

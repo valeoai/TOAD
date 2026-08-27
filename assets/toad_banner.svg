@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="TOAD - Test-Time Trajectory Optimization for Autonomous Driving. New state of the art on both benchmarks: 95.0 PDMS on NAVSIM-v1, above the 94.8 human-driver reference, and 56.3 EPDMS on NAVSIM-v2 navhard_two_stage. Test-time only - no retraining, CEM runs on top of a frozen checkpoint.">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="TOAD - Test-Time Trajectory Optimization for Autonomous Driving. New state of the art on both benchmarks: 94.9 PDMS on NAVSIM-v1, above the 94.8 human-driver reference, and 56.3 EPDMS on NAVSIM-v2 navhard_two_stage. Test-time only - no retraining, CEM runs on top of a frozen checkpoint.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#003B71"/><stop offset="55%" stop-color="#003B71"/><stop offset="100%" stop-color="#003B71"/>
@@ -46,7 +46,7 @@
   <path d="M256 322V410M452 322V410" stroke="#9EC9F0" stroke-opacity="0.3"/>
 
   <g class="fin d3">
-    <text class="m" x="76" y="356" font-size="31" font-weight="800" fill="#48E0AC">95.0</text>
+    <text class="m" x="76" y="356" font-size="31" font-weight="800" fill="#48E0AC">94.9</text>
     <text class="t" x="160" y="355" font-size="15" fill="#8FD9C2">PDMS</text>
     <text class="t" x="76" y="380" font-size="14" font-weight="600" fill="#EAF4FF">NAVSIM-v1</text>
     <text class="t" x="76" y="400" font-size="12.5" fill="#9EC9F0">above human GT 94.8</text>

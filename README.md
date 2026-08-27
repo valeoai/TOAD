@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="assets/TOAD_overview.gif" alt="TOAD — Test-Time Trajectory Optimization for Autonomous Driving. Left: the title card with the CEM loop animating — a fan of trajectory proposals is sampled, scored, and the distribution re-fit until a single refined trajectory remains; new state of the art on both benchmarks, 95.0 PDMS on NAVSIM-v1 and 56.3 EPDMS on NAVSIM-v2, test-time only with no retraining. Right: the method figure contrasting classical score-and-select planning with TOAD's test-time optimization loop." width="100%">
+<img src="assets/TOAD_overview.gif" alt="TOAD — Test-Time Trajectory Optimization for Autonomous Driving. Left: the title card with the CEM loop animating — a fan of trajectory proposals is sampled, scored, and the distribution re-fit until a single refined trajectory remains; new state of the art on both benchmarks, 94.9 PDMS on NAVSIM-v1 and 56.3 EPDMS on NAVSIM-v2, test-time only with no retraining. Right: the method figure contrasting classical score-and-select planning with TOAD's test-time optimization loop." width="100%">
 
 <h3>Sampling-based test-time refinement that takes a <b>frozen</b> driving policy to<br>
-<b>95.0&nbsp;PDMS</b> on NAVSIM-v1 and <b>56.3&nbsp;EPDMS</b> on NAVSIM-v2 — <b>state of the art on both</b>.</h3>
+<b>94.9&nbsp;PDMS</b> on NAVSIM-v1 and <b>56.3&nbsp;EPDMS</b> on NAVSIM-v2 — <b>state of the art on both</b>.</h3>
 
 [![arXiv](https://img.shields.io/badge/arXiv-2606.07170-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2606.07170)
 [![Project Page](https://img.shields.io/badge/Project-Page-4c8bf5.svg?style=flat-square)](https://valeoai.github.io/publications/TOAD/)
@@ -184,21 +184,21 @@ python $NAVSIM_DEVKIT_ROOT/navsim/planning/script/run_pdm_score_gpu_v2.py  \
 ## Results
 
 > [!IMPORTANT]
-> **TOAD sets a new state of the art on both NAVSIM benchmarks — 95.0 PDMS on
+> **TOAD sets a new state of the art on both NAVSIM benchmarks — 94.9 PDMS on
 > NAVSIM-v1 and 56.3 EPDMS on NAVSIM-v2 (`navhard_two_stage`) — with no
 > retraining.** Both numbers come from running CEM at test time on top of the
 > same frozen checkpoint that scores 94.6 / 54.6 on its own.
 
 <div align="center">
-<img src="assets/toad_results.svg" alt="Animated results: NAVSIM-v1 PDMS reaches 95.0, above the 94.8 human driver reference; NAVSIM-v2 EPDMS reaches 56.3 against 56.6 for PDM-C with privileged ground-truth inputs. Both TOAD rows are state of the art." width="100%">
+<img src="assets/toad_results.svg" alt="Animated results: NAVSIM-v1 PDMS reaches 94.9, above the 94.8 human driver reference; NAVSIM-v2 EPDMS reaches 56.3 against 56.6 for PDM-C with privileged ground-truth inputs. Both TOAD rows are state of the art." width="100%">
 </div>
 
 | Benchmark | Metric | Frozen checkpoint | **+ TOAD** | Δ |
 | :--- | :---: | ---: | ---: | ---: |
-| **NAVSIM-v1** | PDMS | 94.6 | 🏆 **95.0** | **+0.4** |
+| **NAVSIM-v1** | PDMS | 94.6 | 🏆 **94.9** | **+0.3** |
 | **NAVSIM-v2** | EPDMS | 54.6 | 🏆 **56.3** | **+1.7** |
 
-On NAVSIM-v1, 95.0 PDMS lands **above the "human" driver ground truth (94.8)** —
+On NAVSIM-v1, 94.9 PDMS lands **above the "human" driver ground truth (94.8)** —
 TOAD scores higher than the logged human trajectory the policy was trained to
 imitate. On NAVSIM-v2, 56.3 EPDMS comes within **0.3 of PDM-C given privileged
 ground-truth perception inputs (56.6)**: test-time search closes most of the gap

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 606" width="1060" height="606" role="img" aria-label="TOAD results. NAVSIM-v1 PDMS: 93.1, 93.7, 94.0, 94.6, and 95.0 with TOAD, above the 94.8 human driver reference. NAVSIM-v2 EPDMS: 48.3, 52.2, 54.6, and 56.3 with TOAD, against 56.6 for PDM-C with privileged ground-truth inputs. Both TOAD rows are new state of the art.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 606" width="1060" height="606" role="img" aria-label="TOAD results. NAVSIM-v1 PDMS: 93.1, 93.7, 94.0, 94.6, and 94.9 with TOAD, above the 94.8 human driver reference. NAVSIM-v2 EPDMS: 48.3, 52.2, 54.6, and 56.3 with TOAD, against 56.6 for PDM-C with privileged ground-truth inputs. Both TOAD rows are new state of the art.">
   <defs>
     <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#2f5d8f"/><stop offset="70%" stop-color="#26b083"/><stop offset="100%" stop-color="#34d399"/>
@@ -46,14 +46,14 @@
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.215;0.335;0.90;1" dur="10s" repeatCount="indefinite"/>94.6</text>
   <text class="t" x="234" y="247" font-size="15" text-anchor="end" fill="#e6edf3" font-weight="700">+ TOAD</text>
   <rect x="250" y="228" width="620" height="26" rx="6" fill="#16233c"/>
-  <rect x="250" y="228" height="26" rx="6" fill="url(#hot)" width="516.7">
-    <animate attributeName="width" values="0;0;516.7;516.7;0" keyTimes="0;0.270;0.390;0.90;1" dur="10s" repeatCount="indefinite"/>
+  <rect x="250" y="228" height="26" rx="6" fill="url(#hot)" width="496.0">
+    <animate attributeName="width" values="0;0;496.0;496.0;0" keyTimes="0;0.270;0.390;0.90;1" dur="10s" repeatCount="indefinite"/>
   </rect>
-  <text class="m" x="778.7" y="247" font-size="17" font-weight="800" fill="#34d399" opacity="1">
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.270;0.390;0.90;1" dur="10s" repeatCount="indefinite"/>95.0</text>
+  <text class="m" x="758.0" y="247" font-size="17" font-weight="800" fill="#34d399" opacity="1">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.270;0.390;0.90;1" dur="10s" repeatCount="indefinite"/>94.9</text>
   <g opacity="1"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.270;0.390;0.90;1" dur="10s" repeatCount="indefinite"/>
-    <rect x="824.7" y="231" width="106" height="20" rx="10" fill="#2a1f07" stroke="#fbbf24" stroke-opacity="0.6"/>
-    <text class="t" x="836.7" y="245" font-size="12" font-weight="800" fill="#fbbf24">NEW SOTA</text></g>
+    <rect x="804.0" y="231" width="106" height="20" rx="10" fill="#2a1f07" stroke="#fbbf24" stroke-opacity="0.6"/>
+    <text class="t" x="816.0" y="245" font-size="12" font-weight="800" fill="#fbbf24">NEW SOTA</text></g>
   <text class="t" x="234" y="287" font-size="15" text-anchor="end" fill="#c8a34a" font-weight="500">"Human" driver GT</text>
   <rect x="250" y="268" width="620" height="26" rx="6" fill="#16233c"/>
   <rect x="250" y="268" height="26" rx="6" fill="url(#ref)" width="475.3">

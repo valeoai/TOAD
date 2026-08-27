@@ -119,6 +119,8 @@ export OPENSCENE_DATA_ROOT="/PATH/TO/drivoR/dataset"
 > [NAVSIM-v2 repo](https://github.com/autonomousvision/navsim).
 
 ## Evaluation
+The evaluation was ran under 8XA100 GPUs with fixed seed=2, the results may vary with reduced GPUs and a different seed (with mean±std around Nav1: 94.8 ± 0.08 PDMS, 56.2 ± 0.15 EPMDS).
+
 First, cache the metrics used for the PDM score:
 
 ```bash
@@ -231,7 +233,7 @@ CACHE_PATH=$NAVSIM_EXP_ROOT/navhard_two_stage_metric_cache
 SYNTHETIC_SENSOR_PATH=$OPENSCENE_DATA_ROOT/navhard_two_stage/sensor_blobs
 SYNTHETIC_SCENES_PATH=$OPENSCENE_DATA_ROOT/navhard_two_stage/synthetic_scene_pickles
 export SUBSCORE_PATH=$NAVSIM_EXP_ROOT
-CHECKPOINT=YOUR_CKPT
+CHECKPOINT=$NAVSIM_DEVKIT_ROOT/weights/nav2_30_epochs_with_134k_simscale_85ktrain_54.6.pth
 EXPERIMENT=drivoR_nav2
 AGENT=drivoR
 
